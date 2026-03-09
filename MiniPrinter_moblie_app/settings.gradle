@@ -1,0 +1,49 @@
+pluginManagement {
+    repositories {
+        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://www.jitpack.io") }
+        maven { url = uri("https://maven.aliyun.com/repository/releases") }
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/central") }
+        maven { url = uri("https://maven.aliyun.com/nexus/content/repositories/jcenter") }
+        maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+        maven { url = uri("https://maven.aliyun.com/repository/grails-core") }
+        maven { url = uri("https://maven.aliyun.com/repository/apache-snapshots") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        maven { url = uri("https://s01.oss.sonatype.org/content/groups/public") }
+        maven { url = uri("https://dl.google.com/dl/android/maven2/") }
+        mavenCentral()
+        google()
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/google' }
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://www.jitpack.io") }
+        maven { url = uri("https://maven.aliyun.com/repository/releases") }
+        maven { url = uri("https://maven.aliyun.com/repository/google") }
+        maven { url = uri("https://maven.aliyun.com/repository/central") }
+        maven { url = uri("https://maven.aliyun.com/nexus/content/repositories/jcenter") }
+        maven { url = uri("https://maven.aliyun.com/repository/gradle-plugin") }
+        maven { url = uri("https://maven.aliyun.com/repository/grails-core") }
+        maven { url = uri("https://maven.aliyun.com/repository/apache-snapshots") }
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        maven { url = uri("https://s01.oss.sonatype.org/content/groups/public") }
+        maven { url = uri("https://dl.google.com/dl/android/maven2/") }
+        mavenCentral()
+        google()
+        jcenter()
+    }
+}
+
+rootProject.name = "miniprinter"
+include ':app'
+include ':photoeditor'
+include ':library'
